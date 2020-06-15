@@ -5,6 +5,7 @@ import "rxjs/add/operator/map";
 export class Data {
   jsonData: any;
   loanList: any;
+
   constructor() {
     this.jsonData = [
       { id: 1, label: "saw", name: "Prithivi" },
@@ -218,5 +219,9 @@ export class Data {
     return this.loanList.filter(item => {
       return item.loanNo.toLowerCase().includes(searchTerm.toLowerCase());
     });
+  }
+
+  loanListData() {
+    return this.loanList;
   }
 }
