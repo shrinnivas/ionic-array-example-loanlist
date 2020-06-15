@@ -90,7 +90,7 @@ export class HomePage {
     ////////////////////////////////////////////////////////////
         // includes() //totals
 
-    const loanincludeResult = mapItems.includes('670');
-    console.log('// includes() result = '+ loanincludeResult);    
+    const loanincludeResult = mapItems.includes('666');
+    console.log('// includes() loanincludeResult = '+ loanincludeResult);    
   }
 }
